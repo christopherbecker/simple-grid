@@ -1,4 +1,4 @@
-# simple-grid
+# Simple-grid
 A simple grid using flex. This system use a 10 column layout.
 
 Simple-grid is straighforward to use and **lightweight**, only **1.4kb**.
