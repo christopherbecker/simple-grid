@@ -58,7 +58,7 @@ Add to `head` of HTML.
 
 ### Breakpoints
 
-* > 1200px
+* >1200px
 `.col-*`
 
 * 1200px
