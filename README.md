@@ -12,6 +12,7 @@ Add to `head` of HTML.
 ## How to use
 
 ### HTML
+
 ```
 <div class="container">
   <div class="col-1">
@@ -64,6 +65,19 @@ Add to `head` of HTML.
 ```
 
 If you wanted to stack the above html on mobile, simply add `br-xs-container` to the `.container` class.
+
+```
+<div class="container br-xs-container">
+  <div class="col-5">
+    Left
+  </div>
+  <div class="col-5">
+    Right.
+    <br>
+    Stack on mobile devices using .br-xs-container
+  </div>
+</div>
+```
 
 ## Reason
 
