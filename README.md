@@ -1,12 +1,53 @@
 # simple-grid
-A simple grid using flex.
+A simple grid using flex. This system use a 10 column layout.
+
+Simple-grid is straighforward to use and **lightweight**, only **1.4kb**.
 
 ## Install
 
 Add to `head` of HTML.
+
 ```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@1.0/simple-grid.min.css" />```
 
 ## How to use
+
+### HTML
+```
+<div class="container">
+  <div class="col-1">
+    1
+  </div>
+  <div class="col-1">
+    2
+  </div>
+  <div class="col-1">
+    3
+  </div>
+  <div class="col-1">
+    4
+  </div>
+  <div class="col-1">
+    5
+  </div>
+  <div class="col-1">
+    6
+  </div>
+  <div class="col-1">
+    7
+  </div>
+  <div class="col-1">
+    8
+  </div>
+  <div class="col-1">
+    9
+  </div>
+  <div class="col-1">
+    10
+  </div>
+</div>
+```
+
+## Responsive
 
 ### Breakpoints
 
@@ -22,16 +63,8 @@ Add to `head` of HTML.
 .br-xs-container
 ```
 
-Is a class used to indicate on what breakpooint do you want flex to stack.
+If you wanted to stack the above html on mobile, simply add `br-xs-container` to the `.container` class.
 
-### HTML
-```
-<div class="container br-xs-container">
-  <div class="col-5 col-sm-10">
-    1
-  </div>
-  <div class="col-5 col-sm-5">
-    2
-  </div>
-</div>
-```
+## Reason
+
+I created this repository, because this Simple-grid is a layout I use on all my projects, and now anyone can use it.
