@@ -1,7 +1,7 @@
 # Simple-grid
 A simple grid using flex.
 
-Simple-grid is straighforward, easy to use and **lightweight**, only **1.4kb**.
+Simple-grid is straighforward, easy to use and **lightweight**, only **1.5kb**.
 
 ## Install
 
