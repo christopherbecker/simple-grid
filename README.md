@@ -81,7 +81,7 @@ If you wanted to stack columns on mobile, simply add `br-xs-container` to the `.
 
 ## Demo
 
-[JSFiddle Demo of Simple-grid](https://jsfiddle.net/cmb86/ut65hmc1/)
+[Simple-grid on JSFiddle](https://jsfiddle.net/cmb86/ut65hmc1/)
 
 ## Reason
 
