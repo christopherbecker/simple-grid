@@ -74,10 +74,14 @@ If you wanted to stack columns on mobile, simply add `br-xs-container` to the `.
   <div class="col-5">
     Right.
     <br>
-    Stack on mobile devices using .br-xs-container
+    Columns will stack on mobile devices using .br-xs-container
   </div>
 </div>
 ```
+
+## Demo
+
+[JSFiddle Demo of Simple-grid](https://jsfiddle.net/cmb86/ut65hmc1/)
 
 ## Reason
 
