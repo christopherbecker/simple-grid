@@ -64,7 +64,7 @@ Add to `head` of HTML.
 .br-xs-container
 ```
 
-If you wanted to stack the above html on mobile, simply add `br-xs-container` to the `.container` class.
+If you wanted to stack columns on mobile, simply add `br-xs-container` to the `.container` class.
 
 ```
 <div class="container br-xs-container">
