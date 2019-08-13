@@ -58,10 +58,20 @@ Add to `head` of HTML.
 
 ### Breakpoints
 
+* > 1200px
+`.col-*`
+
 * 1200px
+`.col-lg-*`
+
 * 992px
+`.col-md-*`
+
 * 768px
+`.col-sm-*`
+
 * 576px
+`.col-xs-*`
 
 ```
 <div class="container">
