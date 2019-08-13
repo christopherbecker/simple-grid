@@ -1,13 +1,13 @@
 # Simple-grid
-A simple grid using flex. This grid uses a 10 column layout.
+A simple grid using flex.
 
-Simple-grid is straighforward to use and **lightweight**, only **1.4kb**.
+Simple-grid is straighforward, easy to use and **lightweight**, only **1.4kb**.
 
 ## Install
 
 Add to `head` of HTML.
 
-```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@1.0/simple-grid.min.css" />```
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.0/simple-grid.min.css" />```
 
 ## How to use
 
@@ -45,6 +45,12 @@ Add to `head` of HTML.
   <div class="col-1">
     10
   </div>
+  <div class="col-1">
+    11
+  </div>
+  <div class="col-1">
+    12
+  </div>
 </div>
 ```
 
@@ -58,23 +64,15 @@ Add to `head` of HTML.
 * 576px
 
 ```
-.br-lg-container
-.br-md-container
-.br-sm-container
-.br-xs-container
-```
-
-If you wanted to stack columns on mobile, simply add `br-xs-container` to the `.container` class.
-
-```
-<div class="container br-xs-container">
-  <div class="col-5">
-    Left
+<div class="container">
+  <div class="col-4 col-xs-12">
+    1
   </div>
-  <div class="col-5">
-    Right.
-    <br>
-    Columns will stack on mobile devices using .br-xs-container
+  <div class="col-4 col-xs-6">
+    2
+  </div>
+  <div class="col-4 col-xs-6">
+    3
   </div>
 </div>
 ```
