@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  background: #eee;
+}
+
+.col-1 {
+  flex: 10%;
+}
+
+.col-2 {
+  flex: 20%;
+}
+
+.col-3 {
+  flex: 30%;
+}
+
+.col-4 {
+  flex: 40%;
+}
+
+.col-5 {
+  flex: 50%;
+}
+
+.col-6 {
+  flex: 60%;
+}
+
+.col-7 {
+  flex: 70%;
+}
+
+.col-8 {
+  flex: 80%;
+}
+
+.col-9 {
+  flex: 90%;
+}
+
+.col-10 {
+  flex: 100%;
+}
+
+.br-container {
+  display: block;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    display: flex;
+  }
+  
+  .br-lg-container {
+    display: block;
+  }
+  .col-lg-1 {
+    flex: 10%;
+  }
+
+  .col-lg-2 {
+    flex: 20%;
+  }
+
+  .col-lg-3 {
+    flex: 30%;
+  }
+
+  .col-lg-4 {
+    flex: 40%;
+  }
+
+  .col-lg-5 {
+    flex: 50%;
+  }
+
+  .col-lg-6 {
+    flex: 60%;
+  }
+
+  .col-lg-7 {
+    flex: 70%;
+  }
+
+  .col-lg-8 {
+    flex: 80%;
+  }
+
+  .col-lg-9 {
+    flex: 90%;
+  }
+
+  .col-lg-10 {
+    flex: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) (max-width: 992px) {
+  .container {
+    display: flex;
+  }
+  .br-md-container {
+    display: block;
+  }
+  .col-md-1 {
+    flex: 10%;
+  }
+
+  .col-md-2 {
+    flex: 20%;
+  }
+
+  .col-md-3 {
+    flex: 30%;
+  }
+
+  .col-md-4 {
+    flex: 40%;
+  }
+
+  .col-md-5 {
+    flex: 50%;
+  }
+
+  .col-md-6 {
+    flex: 60%;
+  }
+
+  .col-md-7 {
+    flex: 70%;
+  }
+
+  .col-md-8 {
+    flex: 80%;
+  }
+
+  .col-md-9 {
+    flex: 90%;
+  }
+
+  .col-md-10 {
+    flex: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) (max-width: 768px) {
+  .container {
+    display: flex;
+  }
+  .br-sm-container {
+    display: block;
+  }
+  
+  .col-sm-1 {
+    flex: 10%;
+  }
+
+  .col-sm-2 {
+    flex: 20%;
+  }
+
+  .col-sm-3 {
+    flex: 30%;
+  }
+
+  .col-sm-4 {
+    flex: 40%;
+  }
+
+  .col-sm-5 {
+    flex: 50%;
+  }
+
+  .col-sm-6 {
+    flex: 60%;
+  }
+
+  .col-sm-7 {
+    flex: 70%;
+  }
+
+  .col-sm-8 {
+    flex: 80%;
+  }
+
+  .col-sm-9 {
+    flex: 90%;
+  }
+
+  .col-sm-10 {
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    display: flex;
+  }
+  .br-xs-container {
+    display: block;
+  }
+  
+  .col-xs-1 {
+    flex: 10%;
+  }
+
+  .col-xs-2 {
+    flex: 20%;
+  }
+
+  .col-xs-3 {
+    flex: 30%;
+  }
+
+  .col-xs-4 {
+    flex: 40%;
+  }
+
+  .col-xs-5 {
+    flex: 50%;
+  }
+
+  .col-xs-6 {
+    flex: 60%;
+  }
+
+  .col-xs-7 {
+    flex: 70%;
+  }
+
+  .col-xs-8 {
+    flex: 80%;
+  }
+
+  .col-xs-9 {
+    flex: 90%;
+  }
+
+  .col-xs-10 {
+    flex: 100%;
+  }
+}
