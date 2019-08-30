@@ -91,6 +91,53 @@ Add to `head` of HTML.
 
 [Simple-grid on JSFiddle](https://jsfiddle.net/cmb86/ut65hmc1/)
 
-## Reason
 
-I created this repository, because this Simple-grid is a layout I use on all my projects, and now anyone can use it.
+
+# Simple-grid-slider
+A simple grid slider using flex that is also mobile compatible. You can use this with the simple-grid shown above.
+
+## Install
+
+Add to `head` of HTML.
+
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.5/simple-grid-slider.min.css" />```
+
+Add to bottom of HTML before the cloing body tag `</body>`.
+
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.5/simple-grid-slider.min.js" />```
+
+## How to use
+
+### HTML
+
+```
+<div class="top-container">
+  <div class="container simple-grid-slider">
+    <div class="col-6 col-xs-12 section">
+      1
+    </div>
+    <div class="col-6 col-xs-12 section">
+      2
+    </div>
+    <div class="col-6 col-xs-12 section">
+      3
+    </div>
+    <div class="col-6 col-xs-12 section">
+      4
+    </div>
+  </div>
+
+  <a href="#" class="left">Left</a>
+  <a href="#" class="right">Right</a>
+</div>
+```
+
+### JS
+
+```
+simpleGridSlider('.top-container');
+```
+
+## Demo
+
+[Simple-grid-slider on JSFiddle](https://jsfiddle.net/cmb86/bvdt0mrc/)
