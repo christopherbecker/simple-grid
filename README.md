@@ -104,7 +104,7 @@ Add to `head` of HTML.
 
 Add to bottom of HTML before the cloing body tag `</body>`.
 
-```<script type="application/javascript" src="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.5/simple-grid-slider.min.js" ></script>```
+```<script src="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.5/simple-grid-slider.min.js" ></script>```
 
 ## How to use
 
