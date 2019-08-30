@@ -7,7 +7,7 @@ Simple-grid is straighforward, easy to use and **lightweight**, only **1.5kb** g
 
 Add to `head` of HTML.
 
-```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.0/simple-grid.min.css" />```
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/christopherbecker/simple-grid@2.2/simple-grid.min.css" />```
 
 ## How to use
 
